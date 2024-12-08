@@ -2,6 +2,8 @@ import Image from "next/image";
 import product1 from "../images/shoe1.png"; 
 import product2 from "../images/shoe2.png"
 import arrowIcons from "../images/Auto Layout Horizontal.png"
+import Link from 'next/link';
+
 const ProductCarousel: React.FC = () => {
   return (
     <section className="product-carousel py-12 bg-white">
@@ -14,35 +16,40 @@ const ProductCarousel: React.FC = () => {
       <div className="flex justify-between p-[200px] pt-[12px] pb-[12px]">
 
         {/* Product 1 */}
-        <div className="text-center">
+        <div className="text-center"><Link href="/ProductPage">
           <Image src={product1} alt="Nike Air Max Pulse" width={300} height={300} />
           <div className="flex  justify-between mt-[20px]">
           <h3 className=" font-bold text-[15px]">Nike Air Max Pulse</h3>
           
           <p className="text-gray-600">₹13,995</p>
+         
           </div>
+          </Link>
           <div className="flex text-sm text-gray-500"><p>Women`s Shoes</p></div>
           
         </div>
 
         {/* Product 2 */}
-        <div className="text-center">
+        <div className="text-center"><Link href="/ProductPage">
           <Image src={product2} alt="Nike Air Max 97 SE" width={300} height={300} />
            <div className="flex  justify-between mt-[20px]">
           <h3 className=" font-bold text-[15px]">Nike Air Max Pulse</h3>
           
           <p className="text-gray-600">₹13,995</p>
           </div>
+          </Link>
           <div className=" flex text-sm text-gray-500"><p>Men`s Shoes</p></div>
         </div>
 
         <div className="text-center">
+        <Link href="/ProductPage">
           <Image src={product2} alt="Nike Air Max 97 SE" width={300} height={300} />
           <div className="flex  justify-between mt-[20px]">
           <h3 className=" font-bold text-[15px]">Nike Air Max Pulse</h3>
           
           <p className="text-gray-600">₹13,995</p>
           </div>
+          </Link>
           <div className=" flex text-sm text-gray-500"><p>Men`s Shoes</p></div>
           
         </div>

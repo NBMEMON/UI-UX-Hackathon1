@@ -4,7 +4,7 @@ import NikeLogo1 from"../images/nike logo.png"
 import searchIcon from "../images/search.png"
 import Heart from "../images/heart.png"
 import Cart from "../images/cart.png"
-
+import Link from "next/link"
 
 export default function header(){
     return (
@@ -14,14 +14,16 @@ export default function header(){
          className="ml-[48px]"
          src={NikeLogo}
          alt=""/>
-         <button className="w-146.86px h-26px bg-white text-[13px] p-2">Skip to main content</button>
-         <div className="text-[11px] whitespace-pre mr-[48px] font-[500px]">Find a Store   |   Help   |  Join Us  | Sign in</div>
+         
+         <div className="text-[11px] whitespace-pre mr-[48px] font-[500px]">Find a Store   | <Link href="/Help">  Help   </Link>|<Link href="/JoinUs"> Join Us </Link>| <Link href="/SignUpPage"> Sign in </Link></div>
         </div>
         <div className="w-1440px h-60px bg-[#ffffff] flex justify-between items-center ">
+            <Link href="/">
             <Image
             src={NikeLogo1}
             alt=""
             className="ml-[24px]"/>
+            </Link>
             <ul className="list-none flex justify-center ">
                 <li className="mr-4">
                      New & Featured 
@@ -63,9 +65,11 @@ export default function header(){
 <Image 
 src ={Heart}
 alt=""/>
+<Link href="/Cart">
 <Image 
 src={Cart}
 alt=""/>
+</Link>
 </div>
 </div>
         </div>

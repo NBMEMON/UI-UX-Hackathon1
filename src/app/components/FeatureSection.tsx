@@ -1,5 +1,6 @@
 import Banner from "../images/Banner2.png"
 import Image from "next/image";
+import Link from "next/link";
 
 const FeatureSection: React.FC = () => {
     return (
@@ -14,7 +15,7 @@ const FeatureSection: React.FC = () => {
         <div className="container mx-auto text-center">
           <h2 className="text-[60px] font-bold mt-[50px]">STEP INTO WHAT FEELS GOOD</h2>
           <p className="mt-4 text-lg">Cause everyone should know the feeling of running in that perfect pair.</p>
-          <button className="mt-6 bg-black text-white px-6 py-2 rounded-full">Find Your Shop</button>
+          <Link href="/AllProduct"> <button className="mt-6 bg-black text-white px-6 py-2 rounded-full">Find Your Shop</button></Link>
         </div>
       </section>
     );
