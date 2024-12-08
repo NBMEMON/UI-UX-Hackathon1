@@ -12,7 +12,7 @@ const CategoryCarousel: React.FC = () => {
         {/* Men's Section */}
         <div className="w-1/2 pr-4">
           <div className="flex ml-[450px] justify-between items-center mb-4 ">
-            <h3 className="text-lg font-semibold">Shop Men's</h3>
+            <h3 className="text-lg font-semibold">Shop Mens</h3>
             <div className="flex gap-2 mr-[53px]">
               <button className="rounded-full border-2 border-gray-400 w-8 h-8 flex items-center justify-center">‹</button>
               <button className="rounded-full border-2 border-gray-400 w-8 h-8 flex items-center justify-center">›</button>
@@ -27,7 +27,7 @@ const CategoryCarousel: React.FC = () => {
               <p className="text-gray-600 mt-[15px]">₹3,895</p>
               </div>
               <div className="flex text-left">
-              <p className="text-gray-500 text-xs">Men's Short-Sleeve Running Top</p>
+              <p className="text-gray-500 text-xs">Mens Short-Sleeve Running Top</p>
               </div>
               
             </div>
@@ -39,7 +39,7 @@ const CategoryCarousel: React.FC = () => {
               <p className="text-gray-600 mt-[15px]">₹2,495</p>
               </div>
               <div className="flex text-left">
-              <p className="text-gray-500 text-xs">Men's 18cm (approx.) 2<br></br>-in-1 Versatile Shorts</p>
+              <p className="text-gray-500 text-xs">Mens 18cm (approx.) 2<br></br>-in-1 Versatile Shorts</p>
               </div>
               
             </div>
@@ -49,7 +49,7 @@ const CategoryCarousel: React.FC = () => {
         {/* Women's Section */}
         <div className="w-1/2 pl-4">
           <div className="flex ml-[350px] justify-between items-center mb-4">
-            <h3 className="text-lg font-semibold">Shop Women's</h3>
+            <h3 className="text-lg font-semibold">Shop Womens</h3>
             <div className="flex gap-2">
               <button className="rounded-full border-2 border-gray-400 w-8 h-8 flex items-center justify-center">‹</button>
               <button className="rounded-full border-2 border-gray-400 w-8 h-8 flex items-center justify-center mr-[50px]">›</button>
@@ -64,7 +64,7 @@ const CategoryCarousel: React.FC = () => {
               <p className="text-gray-600 mt-[15px]">₹5,295</p>
               </div>
               <div className="flex text-left" >
-              <p className="text-gray-500 text-xs">Women's Long-Sleeve Running Top</p>
+              <p className="text-gray-500 text-xs">Womens Long-Sleeve Running Top</p>
               </div>
             </div>
             {/* Women's Item 2 */}
@@ -75,7 +75,7 @@ const CategoryCarousel: React.FC = () => {
               <p className="text-gray-600 mt-[15px]">₹3,795</p>
               </div>
               <div className="flex text-left">
-              <p className="text-gray-500 text-xs">Women's Mid-Rise 7/8 Running <br></br>Leggings with Pockets</p>
+              <p className="text-gray-500 text-xs">Womens Mid-Rise 7/8 Running <br></br>Leggings with Pockets</p>
               </div>
             </div>
           </div>

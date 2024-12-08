@@ -7,7 +7,7 @@ import Kids from "../images/kid.png"
 const FlightEssentialsSection: React.FC = () => {
   return (
     <section className="flight-essentials bg-white py-12 "><p className="text-[20px] font-bold ml-[90px] mb-[15px]">
-        Don`t Miss
+        Dont Miss
     </p>
         <div className="flex justify-center">
         <Image 
@@ -115,13 +115,13 @@ const Page: React.FC = () => {
         <p className="product-name text-sm font-medium text-[#757575] mb-[5px]">Infant & Toddler Shoes</p>
       </li>
       <li className="flex items-center">
-        <p className="product-name text-sm font-medium text-[#757575] mb-[5px]">Kids' Shoes</p>
+        <p className="product-name text-sm font-medium text-[#757575] mb-[5px]">Kids Shoes</p>
       </li>
       <li className="flex items-center">
-        <p className="product-name text-sm font-medium text-[#757575] mb-[5px]">Kids' Jordan Shoes</p>
+        <p className="product-name text-sm font-medium text-[#757575] mb-[5px]">Kids Jordan Shoes</p>
       </li>
       <li className="flex items-center">
-        <p className="product-name text-sm font-medium text-[#757575] mb-[5px]">Kids' Basketball Shoes</p>
+        <p className="product-name text-sm font-medium text-[#757575] mb-[5px]">Kids Basketball Shoes</p>
       </li>
     </ul>
   </div>
