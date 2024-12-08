@@ -118,7 +118,7 @@ export default function HelpPage() {
             href="#"
             className="text-black underline hover:text-gray-700 transition"
           >
-            WHAT ARE NIKE'S DELIVERY OPTIONS?
+            WHAT ARE NIKES DELIVERY OPTIONS?
           </a>
         </li>
         <li>

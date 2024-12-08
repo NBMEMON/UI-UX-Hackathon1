@@ -15,7 +15,7 @@ export default function Checkout() {
           {/* Header */}
           <h1 className="text-xl font-bold mb-4">How would you like to get your order?</h1>
           <p className="text-sm text-gray-600 mb-4">
-            Customs regulation for India requires a copy of the recipient’s KYC. The address on
+            Customs regulation for India requires a copy of the recipients KYC. The address on
             this KYC needs to match the shipping address. Our courier will contact you via SMS/email to obtain a
             copy of your KYC. The KYC will be stored securely and used solely for the purpose of clearing customs
             (including sharing it with customs officials) for all orders and returns. If your KYC does not match
@@ -80,7 +80,7 @@ export default function Checkout() {
             </div>
 
             {/* Contact Information */}
-            <h2 className="font-bold text-lg mb-4">What’s your contact information?</h2>
+            <h2 className="font-bold text-lg mb-4">Whats your contact information?</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
               <input
                 type="email"
@@ -97,7 +97,7 @@ export default function Checkout() {
             </div>
 
             {/* PAN */}
-            <h2 className="font-bold text-lg mb-4">What’s your PAN?</h2>
+            <h2 className="font-bold text-lg mb-4">Whats your PAN?</h2>
             <input
               type="text"
               placeholder="PAN"

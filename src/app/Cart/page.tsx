@@ -26,7 +26,7 @@ export default function Home() {
               />
               <div className="flex-1">
                 <h2 className="font-semibold mt-[5px]">Nike Dri-FIT ADV TechKnit Ultra</h2>
-                <p className="text-sm text-gray-600 mt-[5px]">Men's Short-Sleeve Running Top</p>
+                <p className="text-sm text-gray-600 mt-[5px]">Mens Short-Sleeve Running Top</p>
                 <p className="text-sm text-gray-600 mt-[5px]">Ashen Slate/Cobalt Bliss</p>
                 <p className="text-sm text-gray-600 mt-[5px]">Size: L</p>
                 <Image
@@ -49,7 +49,7 @@ export default function Home() {
               />
               <div className="flex-1">
                 <h2 className="font-semibold mt-[5px]">Nike Air Max 97 SE</h2>
-                <p className="text-sm text-gray-600 mt-[5px]">Men's Shoes</p>
+                <p className="text-sm text-gray-600 mt-[5px]">Mens Shoes</p>
                 <p className="text-sm text-gray-600 mt-[5px]">Flat Pewter/Light Bone/Black/White</p>
                 <p className="text-sm text-gray-600 mt-[5px]">Size: 8</p>
                 <Image

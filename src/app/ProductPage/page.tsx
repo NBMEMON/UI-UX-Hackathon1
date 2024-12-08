@@ -28,7 +28,7 @@ export default function ProductPage() {
           <h1 className="text-3xl font-bold">Nike Air Force 1 PLT.AF.ORM</h1>
           <p className="text-gray-600 mt-4">
             Turn style on its head with this crafted take on the Air Jordan 1 Mid. Its
-            "inside out"-inspired construction, including unique layering and exposed foam
+            inside out-inspired construction, including unique layering and exposed foam
             accents, ups the ante on this timeless Jordan Brand silhouette. Details like the
             deco stitching on the Swoosh add coveted appeal, while the unexpected shading, rich
             mixture of materials, and aged midsole aesthetic give this release an artisan finish.
