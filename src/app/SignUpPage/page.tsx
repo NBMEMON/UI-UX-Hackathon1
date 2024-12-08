@@ -59,11 +59,11 @@ export default function SignIn() {
   
           {/* Terms and Links */}
           <p className="text-xs text-center text-gray-600 mt-6">
-            By logging in, you agree to Nike's{' '}
+            By logging in, you agree to Nikes
             <a href="#" className="underline">
               Privacy Policy
-            </a>{' '}
-            and{' '}
+            </a>
+            and
             <a href="#" className="underline">
               Terms of Use
             </a>.
